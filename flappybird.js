@@ -49,6 +49,8 @@ window.onload = function() {
 
     //load images
     birdImg = new Image();
+    
+    // change to own image
     birdImg.src = "./flappybird.png";
     birdImg.onload = function() {
         context.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
